@@ -9,41 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoDISolution
 build_property.RootNamespace = DemoDISolution
-build_property.ProjectDir = E:\FPT_Material\Semester7_SP23\PRN221\HandOnLab\DemoDISolution\DemoDISolution\
+build_property.ProjectDir = C:\Users\Admin\source\repos\DemoDISolution\DemoDI\DemoDISolution\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\FPT_Material\Semester7_SP23\PRN221\HandOnLab\DemoDISolution\DemoDISolution
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\DemoDISolution\DemoDI\DemoDISolution
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Departments/Index.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Error.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Departments/TestCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudHNcVGVzdENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Index.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Privacy.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FPT_Material/Semester7_SP23/PRN221/HandOnLab/DemoDISolution/DemoDISolution/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/source/repos/DemoDISolution/DemoDI/DemoDISolution/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m4lg15u2qr

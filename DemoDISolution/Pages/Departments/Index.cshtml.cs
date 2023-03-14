@@ -1,4 +1,5 @@
 using DemoDISolution.Models;
+using DemoDISolution.Services.Departments;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -6,17 +7,18 @@ namespace DemoDISolution.Pages.Departments
 {
     public class IndexModel : PageModel
     {
-        private readonly DemoDIContext context;
+        private readonly IDepartmentService departmentService;
 
-		public IndexModel(DemoDIContext context)
-		{
-			this.context = context;
-		}
+        public IndexModel(IDepartmentService departmentService)
+        {
+            this.departmentService = departmentService;
+        }
 
         public List<Department> Departments { get; set; }
+        [BindProperty(SupportsGet = true)] public string? SearchTerm { get; set; } 
 		public async Task<IActionResult> OnGetAsync()
         {
-            Departments = context.Departments.ToList();
+            Departments = await departmentService.GetDepartmentResult(SearchTerm);
             return Page();
         }
     }

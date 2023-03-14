@@ -1,11 +1,48 @@
 ﻿@page
 @model DemoDISolution.Pages.Departments.IndexModel
 @{
+    ViewData["Title"] = "List Department";
 }
 
-<ul>
-    @foreach (var item in Model.Departments)
-    {
-        <li>@item.DepartmentName</li>
-    }
-</ul>
+<h1>List Department</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <input asp-for="@Model.SearchTerm" placeholder="Search Departments" />
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Departments[0].DepartmentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departments[0].Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Departments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.DepartmentId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.DepartmentId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.DepartmentId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -10023,11 +10023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FPT_Material\\Semester7_SP23\\PRN221\\HandOnLab\\DemoDISolution\\DemoDISolution\\DemoDISolution.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\DemoDISolution\\DemoDI\\DemoDISolution\\DemoDISolution.csproj",
       "projectName": "DemoDISolution",
-      "projectPath": "E:\\FPT_Material\\Semester7_SP23\\PRN221\\HandOnLab\\DemoDISolution\\DemoDISolution\\DemoDISolution.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\DemoDISolution\\DemoDI\\DemoDISolution\\DemoDISolution.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\FPT_Material\\Semester7_SP23\\PRN221\\HandOnLab\\DemoDISolution\\DemoDISolution\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\DemoDISolution\\DemoDI\\DemoDISolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

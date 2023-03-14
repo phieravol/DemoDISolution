@@ -1,4 +1,5 @@
 using DemoDISolution.Models;
+using DemoDISolution.Services.Departments;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 
@@ -10,6 +11,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<DemoDIContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DemoDI")
     ));
+
+builder.Services.AddTransient<IDepartmentService, DepartmentService>();
 
 var app = builder.Build();
 

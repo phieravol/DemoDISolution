@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ekTaw+5bLlskbGVMip1jUKyk6Zc/LdWcwy+EGi8Sndk13J72kHNt6CsDUmVF7WIBjWpD9wJ6iiTf59+9nqS61Q==",
+  "dgSpecHash": "dTQopEZEKSfq4awh6QqjUH3gC0z//Pl0J0aOGOKud5/cQN3ohV31euIItYmCGZgPZ1+q0uvcBzL/FZl9gFdllg==",
   "success": true,
-  "projectFilePath": "E:\\FPT_Material\\Semester7_SP23\\PRN221\\HandOnLab\\DemoDISolution\\DemoDISolution\\DemoDISolution.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\DemoDISolution\\DemoDI\\DemoDISolution\\DemoDISolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
