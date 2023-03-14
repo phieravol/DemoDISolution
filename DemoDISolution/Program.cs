@@ -1,4 +1,5 @@
 using DemoDISolution.Models;
+using DemoDISolution.Services.DemoScope;
 using DemoDISolution.Services.Departments;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
@@ -13,6 +14,11 @@ builder.Services.AddDbContext<DemoDIContext>(options => options.UseSqlServer(
     ));
 
 builder.Services.AddTransient<IDepartmentService, DepartmentService>();
+
+//----------------------------------- Add service to demo -------------------------------------
+builder.Services.AddTransient<ITransientService, SomeService>();
+builder.Services.AddScoped<IScopedService, SomeService>();
+
 
 var app = builder.Build();
 
