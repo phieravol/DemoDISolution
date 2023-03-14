@@ -18,6 +18,23 @@ namespace DemoDISolution.Services.Departments
             await context.SaveChangesAsync();
         }
 
+        public async Task DeleteDepartmentAsync(Department department)
+        {
+            context.Departments.Remove(department);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task EditDepartmentAsync(Department department)
+        {
+            context.Attach(department).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+        }
+
+        public async Task<Department> GetDepartmentByIdAsync(int? id)
+        {
+            return await context.Departments.FirstOrDefaultAsync(x => x.DepartmentId == id);
+        }
+
         public async Task<List<Department>> GetDepartmentResult(string? searchTerm)
         {
             var query = from d in context.Departments
